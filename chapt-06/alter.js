@@ -1,1 +1,2 @@
-alert("wecome to javascript")
+
+window.console.log(window)

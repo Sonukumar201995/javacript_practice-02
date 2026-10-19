@@ -1,2 +1,3 @@
 
-window.console.log(window)
+// window.console.log(window)
+console.log(window)

@@ -1,7 +1,7 @@
-let fc=document.body.firstChild;
-let lc=document.body.lastChild;
-let cn=document.body.childNodes;
+let a=document.body.firstChild;
+console.log(a);
 
-console.log(fc)
-console.log(lc)
-console.log(cn)
+console.log(a.parentNode);
+console.log(a.nextSibling);
+console.log(a.parentElement);
+

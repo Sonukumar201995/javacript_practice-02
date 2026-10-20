@@ -1,12 +1,7 @@
-let body=document.body;
-console.log(body)
+let fc=document.body.firstChild;
+let lc=document.body.lastChild;
+let cn=document.body.childNodes;
 
-let hd=document.head
-console.log(hd);
-
-let ed=document.documentElement;
-console.log(ed)
-
-let tt=document.title
-console.log(tt)
-
+console.log(fc)
+console.log(lc)
+console.log(cn)

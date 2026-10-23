@@ -1,2 +1,2 @@
-let dir=document.getElementsByTagName("span")
-console.dir(dir)
+let box=document.getElementById("box");
+console.log(box.innerHTML)

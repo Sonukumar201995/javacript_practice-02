@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="alert('hello i am in alert fuction')">click me</button>
+    <!-- <button onclick="alert('hello i am in alert fuction')">click me</button> -->
+     <h1>mouse event</h1>
+     <button id="btn">click me</button>
+     <script>
+        const btn=document.getElementById("btn");
+        btn.addEventListener("click",function()
+    {
+        console.log("Button Clicked ")
+    })
+     </script>
 </body>
 </html>

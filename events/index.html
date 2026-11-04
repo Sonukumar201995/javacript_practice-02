@@ -7,12 +7,12 @@
 </head>
 <body>
    
-     <h1>keyboard event</h1>
-     <input type="text" id="username">
+     <h1>form event</h1>
+     <input type="text" id="name">
      <script>
-        const input=document.getElementById("username");
-        input.addEventListener("keydown",function(e){
-            console.log("key pressed",e.key);
+        const input=document.getElementById("name");
+        input.addEventListener("input",function(){
+            console.log(input.value)
         })
      </script>
 </body>

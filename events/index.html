@@ -6,14 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-   
-     <h1>form event</h1>
-     <input type="text" id="name">
-     <script>
-        const input=document.getElementById("name");
-        input.addEventListener("input",function(){
-            console.log(input.value)
-        })
-     </script>
+   <h1>JavaScript Resize Event</h1>
+
+    <p>Resize your browser window to see the result.</p>
+
+    <h2 id="result">Waiting for resize...</h2>
+
+    <script>
+        window.addEventListener("resize", function() {
+
+            console.log("Window resized!");
+
+            let width = window.innerWidth;
+            let height = window.innerHeight;
+
+            document.getElementById("result").innerHTML =
+                "Width: " + width + "px | Height: " + height + "px";
+
+        });
+    </script>
 </body>
 </html>

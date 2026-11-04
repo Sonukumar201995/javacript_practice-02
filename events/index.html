@@ -6,15 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- <button onclick="alert('hello i am in alert fuction')">click me</button> -->
-     <h1>mouse event</h1>
-     <button id="btn">click me</button>
+   
+     <h1>keyboard event</h1>
+     <input type="text" id="username">
      <script>
-        const btn=document.getElementById("btn");
-        btn.addEventListener("click",function()
-    {
-        console.log("Button Clicked ")
-    })
+        const input=document.getElementById("username");
+        input.addEventListener("keydown",function(e){
+            console.log("key pressed",e.key);
+        })
      </script>
 </body>
 </html>
